@@ -5,7 +5,6 @@ import variables as VAR
 from send_email import send_email
 
 
-
 def start_recording():
     cap = cv2.VideoCapture(0)
     face_cascade = cv2.CascadeClassifier(
