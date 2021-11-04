@@ -28,7 +28,7 @@ def start_recording():
                 detection = True
                 current_time = datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
                 output = cv2.VideoWriter(
-                    f"recordings/{current_time}.mp4", fourcc, VAR.FRAME_RATE, frame_size)
+                    f"C:/Users/joszamama/Videos/GuAI CAM/{current_time}.mp4", fourcc, VAR.FRAME_RATE, frame_size)
                 print("Grabando...")
         
         elif detection:
