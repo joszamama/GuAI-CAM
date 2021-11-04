@@ -1,13 +1,10 @@
-import cv2
-import time
-import datetime
+import cv2; import time; import datetime
 import variables as VAR
 from send_email import send_email
 
 
 def start_recording():
     cap = cv2.VideoCapture(0)
-    
     face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
     
